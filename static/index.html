@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiman Naruto - Trip Guide</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <!-- Placeholder Ninja Icon -->
+            <i class="fa-solid fa-user-ninja" style="font-size: 24px; color: #ff8c00;"></i>
+            <h1>Aiman Naruto</h1>
+            <div class="status-dot" title="Online"></div>
+        </header>
+
+        <div id="chat-history">
+            <div class="bot-message message">
+                <p><strong>Dattebayo!</strong> I'm Aiman Naruto! Where do you want to go in Indonesia?</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="input-area">
+                <input type="text" id="message-input" placeholder="Type a message or ask for advice (e.g. 'Weather in Bali')..." autocomplete="off">
+                <button id="send-button">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
